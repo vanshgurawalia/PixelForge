@@ -1,0 +1,10 @@
+^C:\USERS\DSG20\PIXELFORGE\BUILD\CMAKEFILES\F33640F827C64950B60234ECE1E6DCF3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dsg20/PixelForge -BC:/Users/dsg20/PixelForge/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/dsg20/PixelForge/build/PixelForge.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

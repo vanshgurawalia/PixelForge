@@ -1,0 +1,3 @@
+C:/Users/dsg20/PixelForge/build/CMakeFiles/PixelForge.dir
+C:/Users/dsg20/PixelForge/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/dsg20/PixelForge/build/CMakeFiles/ZERO_CHECK.dir
